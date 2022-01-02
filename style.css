@@ -18,4 +18,31 @@ td {
 table
 {
     border-collapse: collapse;
+    width: 125%;
+}
+
+input {
+	border: transparent;
+	background-color: transparent;
+	color : white;
+	width: 98%;
+}
+
+select {
+	border: transparent;
+	background-color: transparent;
+	color : white;
+	appearance : none;
+	width: 100%;
+	text-align: center;
+}
+
+option {
+	border: transparent;
+	background-color: transparent;
+	color : black;
+}
+
+.ital {
+	font-style: italic;
 }
