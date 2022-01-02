@@ -4,17 +4,32 @@
   <meta charset="utf-8">
   <title>Résultats Tennis 🎾</title>
   <link rel="stylesheet" href="style.css">
+  
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 </head>
 <body>
-	<div id="un">
+	<div id="boutton">
+		<form>
+			<input type="button" class="b" value="Ajouter un match">
+		</form>		
+	</div>
+<div id="tout">
+	<div id="top">
+		<h1 class="titre">
+			Rencontres du <input type="text" placeholder="samedi 11 décembre 2021" class="titre" style="width: 50%"> 
+		</h1>
+	</div>
+	<div class="un" style="padding-bottom: 2px;">
 		<table>
 			<tr>
 				<td width="150px">
 					<select style="width:50%">
 						<option>SM</option>
 						<option>SD</option>
+						<option>DM</option>
+						<option>DD</option>
 					</select>
-					<input type="text" size="1" style="max-width: 30%; text-align: right;" />
+					<input type="text" size="1" style="max-width: 30%; text-align: right;" placeholder="12h30" />
 				</td>
 			</tr>
 			<tr>
@@ -77,5 +92,7 @@
 			</tr>
 		</table>
 	</div>
+</div>
+	<script type="text/javascript" src="main.js" ></script>
 </body>
 </html>
