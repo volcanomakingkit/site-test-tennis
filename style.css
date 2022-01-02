@@ -1,3 +1,9 @@
+* {
+	font-family: calibri;
+	font-size: large;
+}
+
+
 body {
 	color:black;
 	background-color:white;
@@ -6,9 +12,21 @@ body {
 	color: white;
 }
 
-#un {
+#tout {
 	position: absolute;
-	top: 320px; left: 40px;
+	top: 310px; left: 40px;
+	height: 350px;
+
+}
+
+#top {
+	position: absolute;
+	top: -171px; left: 25px;
+	width: 800px;
+}
+
+#un {
+	position: relative;
 }
 
 td {
@@ -45,4 +63,28 @@ option {
 
 .ital {
 	font-style: italic;
+}
+
+.titre {
+	font-size: 30px;
+	font-weight: bold; 
+}
+
+.b {
+    width: auto;
+    line-height: 50px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+    background: black;
+    color: white;
+    float: left;
+    margin: 2px;
+    position: absolute;
+    left: 200px; top: 1000px;
+}
+
+.b:hover {
+	background-color: grey;
 }
