@@ -3,4 +3,19 @@ body {
 	background-color:white;
 	background-image:url(fond.jpg);
 	background-repeat:no-repeat;
+	color: white;
+}
+
+#un {
+	position: absolute;
+	top: 320px; left: 40px;
+}
+
+td {
+	border: 1px solid black;
+}
+
+table
+{
+    border-collapse: collapse;
 }
