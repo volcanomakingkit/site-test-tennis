@@ -6,6 +6,7 @@ $(document).ready(function(){
 		if(counter < 4) {
 			$('.un').clone().appendTo($('#tout'));
 		    document.getElementsByClassName('un')[0].className = "deux";
+                    counter++;
 		}
 	})
 });
