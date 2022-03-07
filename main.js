@@ -23,9 +23,9 @@ function jour(x){
 
 date1 = new Date();
 
-document.getElementById('date').value = jour(date1.getDay()) + " " + date1.getDate() + " " + mois(date1.getMonth()) + " " + date1.getFullYear();
-
 let moisListe = ["Janvier","Février","Mars","Avril","Mai","Juin","Juillet","Août","Septembre","Octobre","Novembre","Décembre"];
+
+document.getElementById('date').value = jour(date1.getDay()) + " " + date1.getDate() + " " + mois(date1.getMonth()) + " " + date1.getFullYear();
 
 function mois(x){
     return moisListe[x];
